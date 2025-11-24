@@ -38,6 +38,15 @@ analytics-service consome e grava no DynamoDB.
 \ extraia o conteúdo do arquivo ToggleMaster.zip
 \ dentro da pasta ToggleMaster, crie um arquivo chamado ".env"
 \ Popule o arquivo .env, com os dados enviados no grupo privado do discord
+```
+### IMPORTANTE:
+É necessário configurar as credenciais AWS no .env
+para isso, basta rodar o comando abaixo e pegar as credenciais
+
+```sh
+cat .aws/credentials 
+```
+
 (necessário criar a fila SQS e DynamoDB no usuário da AWS Academy)
 ```
 ### Criar SQS:
@@ -59,3 +68,5 @@ Depois do .env configurado basta subir o docker compose
 ```bash
 docker compose up -d --build
 ```
+
+
