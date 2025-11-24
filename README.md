@@ -36,8 +36,6 @@ analytics-service consome e grava no DynamoDB.
 ```bash
 \ Clone este repo
 \ extraia o conteúdo do arquivo ToggleMaster.zip
-\ dentro da pasta ToggleMaster, crie um arquivo chamado ".env"
-\ Popule o arquivo .env, com os dados enviados no grupo privado do discord
 ```
 ### IMPORTANTE:
 É necessário configurar as credenciais AWS no .env
