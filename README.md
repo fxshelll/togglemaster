@@ -48,11 +48,12 @@ cat .aws/credentials
 ```
 
 (necessário criar a fila SQS e DynamoDB no usuário da AWS Academy)
-```
+
 ### Criar SQS:
 ```sh
 aws sqs create-queue --queue-name togglemaster-events
 ```
+
 ### Criar DynamoDB:
 ```sh
 aws dynamodb create-table \
